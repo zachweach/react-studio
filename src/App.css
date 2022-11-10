@@ -1,9 +1,39 @@
 /* Add styling for your page here */
 
-.App {
-
+main {
+  margin: 3%;
 }
 
-.BakeryItem {
-  
+main > div {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+}
+
+aside {
+  width: 80%;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section {
+  padding: 4% 3%;
+  border-radius: 25px;
+  margin: 1%;
+  background-color: rgb(193, 255, 234);
+  width: 200px;
+  border: black solid 2px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100px;
 }
